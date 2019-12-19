@@ -1,4 +1,4 @@
-<?
+<?php
 
 //SITIOS DE REFERENCIA
 //https://www.php.net/manual/es/tutorial.forms.php
@@ -8,7 +8,7 @@
 //https://www.w3schools.com/php/php_mysql_insert.asp
 //http://w3schools.sinsixx.com/php/php_mysql_insert.asp.htm
 
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "admin_prueba";
 $password = "12345";
 $dbname = "base_prueba";
@@ -31,6 +31,7 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
